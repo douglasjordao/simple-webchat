@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+:root {
+  --text-color: #2d5b86;
+  --border-color: #c0dfff;
+  --primary-color: #5ba0e6;
+  --secondary-color: #a7a7a7;
+  --surface-ground: #2c3e50;
+  --surface-secondary: #e8f2fc;
+  --surface-card: #ecf5fd;
+  --border-radius: 6px;
+  --white: #fff;
+  --success: #28b633;
+  --danger: #e53e3e;
+
+  --primary-hover: rgba(91, 160, 230, 0.2);
+  --secondary-hover: rgba(51, 51, 51, 0.2);
+  --success-hover: rgba(37, 235, 54, 0.2);
+  --danger-hover: rgba(229, 62, 62, 0.2);
+
+  --primary-darken: rgb(82, 144, 207);
+}
