@@ -1,0 +1,52 @@
+[
+  {
+    "value": "Hey there!",
+    "owner": "user",
+    "avatar": "https://i.pravatar.cc/300?img=3"
+  },
+  {
+    "value": "Hello! How can I assist you today?",
+    "owner": "agent",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "value": "I was wondering if you could help me plan a weekend trip.",
+    "owner": "user",
+    "avatar": "https://i.pravatar.cc/300?img=3"
+  },
+  {
+    "value": "Sure! Do you have a destination in mind, or would you like suggestions?",
+    "owner": "agent",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "value": "I’m thinking somewhere not too far. Maybe a place with nature and good food?",
+    "owner": "user",
+    "avatar": "https://i.pravatar.cc/300?img=3"
+  },
+  {
+    "value": "How about a countryside retreat? Quiet, scenic, and usually with amazing local cuisine.",
+    "owner": "agent",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "value": "That sounds perfect. Do you know any specific places?",
+    "owner": "user",
+    "avatar": "https://i.pravatar.cc/300?img=3"
+  },
+  {
+    "value": "Absolutely. There's a lovely place about two hours from your location. It has hiking trails, a small lake, and a famous farm-to-table restaurant.",
+    "owner": "agent",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "value": "Wow, sounds amazing. Can you send me the link to book it?",
+    "owner": "user",
+    "avatar": "https://i.pravatar.cc/300?img=3"
+  },
+  {
+    "value": "Sure, here it is: [Visit Green Haven Retreat](https://example.com/green-haven)",
+    "owner": "agent",
+    "avatar": "https://i.pravatar.cc/150?img=5"
+  }
+]
