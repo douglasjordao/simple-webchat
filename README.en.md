@@ -22,7 +22,7 @@ This project demonstrates a small chat interface built with [Vue 3](https://vuej
 ## Useful Commands
 
 - `yarn dev` — starts the Vite development server.
-- `yarn build` — generates the production build in `dist/`.
+- `yarn build` — generates the production build in `docs/`.
 - `yarn preview` — serves the production build for local testing.
 - `yarn lint` — runs ESLint (if necessary, set `NODE_ENV=development`).
 
