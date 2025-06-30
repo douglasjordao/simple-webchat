@@ -1,37 +1,37 @@
 # Simple Webchat
 
-Este projeto demonstra uma pequena interface de chat construída com [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/) e [Vite](https://vitejs.dev/). A aplicação simula uma conversa simples entre o usuário e um agente, incluindo suporte a mensagens de áudio.
+This project demonstrates a small chat interface built with [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/) and [Vite](https://vitejs.dev/). The application simulates a simple conversation between the user and an agent, including support for audio messages.
 
-## Funcionalidades
+## Features
 
-- Listagem de mensagens pré-carregadas a partir de `public/mocks/messages.json`;
-- Envio de mensagens de texto e gravação de áudio pelo microfone (via [RecordRTC](https://github.com/muaz-khan/RecordRTC));
-- Reprodução de mensagens de áudio com visualização usando [WaveSurfer.js](https://wavesurfer-js.org/);
-- Scroll automático para a última mensagem e botão para rolar até o final do chat;
-- Gerenciamento de estado global com [Pinia](https://pinia.vuejs.org/);
-- Estilização com [Tailwind CSS](https://tailwindcss.com/) e ícones da [PrimeIcons](https://primefaces.org/primeicons/).
+- Displays messages preloaded from `public/mocks/messages.json`.
+- Allows sending text messages and recording audio from the microphone (via [RecordRTC](https://github.com/muaz-khan/RecordRTC)).
+- Plays audio messages with visualization using [WaveSurfer.js](https://wavesurfer-js.org/).
+- Automatically scrolls to the last message and provides a button to jump to the bottom of the chat.
+- Global state management with [Pinia](https://pinia.vuejs.org/).
+- Styling with [Tailwind CSS](https://tailwindcss.com/) and icons from [PrimeIcons](https://primefaces.org/primeicons/).
 
-## Instalação
+## Installation
 
-1. Tenha o Node.js instalado (versão 18 ou superior é recomendada).
-2. Instale as dependências:
+1. Ensure Node.js is installed (version 18 or higher is recommended).
+2. Install dependencies:
    ```bash
    yarn install
    ```
 
-## Comandos úteis
+## Useful Commands
 
-- `yarn dev` &mdash; inicia o servidor de desenvolvimento do Vite.
-- `yarn build` &mdash; gera a versão de produção em `dist/`.
-- `yarn preview` &mdash; serve a build de produção para testes locais.
-- `yarn lint` &mdash; executa o ESLint (caso necessário, defina `NODE_ENV=development`).
+- `yarn dev` — starts the Vite development server.
+- `yarn build` — generates the production build in `dist/`.
+- `yarn preview` — serves the production build for local testing.
+- `yarn lint` — runs ESLint (if necessary, set `NODE_ENV=development`).
 
-## Estrutura
+## Structure
 
-- `src/` &mdash; componentes Vue, stores Pinia e estilos.
-- `public/mocks/messages.json` &mdash; arquivo com mensagens de exemplo carregadas ao iniciar a aplicação.
-- `index.html` &mdash; ponto de entrada da aplicação.
+- `src/` — Vue components, Pinia stores and styles.
+- `public/mocks/messages.json` — file with example messages loaded when the app starts.
+- `index.html` — entry point of the application.
 
-## Licença
+## License
 
-Este projeto está licenciado sob os termos da [MIT License](LICENSE) (se aplicável).
+This project is licensed under the terms of the [MIT License](LICENSE) (if applicable).
