@@ -7,7 +7,14 @@ import Chat from '@/components/Chat.vue';
 const chatStore = useChatStore();
 
 onMounted(async () => {
-  const response = await fetch('/mocks/messages.json');
+  let url = '/mocks/messages.json';
+
+  if (import.meta.env.PROD) {
+    const pathName = window.location.pathname.split('/').filter(Boolean)[0];
+    url = `${pathName}/mocks/messages.json`;
+  }
+
+  const response = await fetch(url);
   const data = await response.json();
 
   chatStore.messages = data;
