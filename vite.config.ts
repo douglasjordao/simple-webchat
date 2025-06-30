@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 export default defineConfig({
   base: './',
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     emptyOutDir: true,
   },
   resolve: {
