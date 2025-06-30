@@ -34,7 +34,6 @@ watch(
       target,
       ([{ isIntersecting }]) => {
         showScrollButton.value = !isIntersecting;
-        console.log('isIntersecting:', isIntersecting);
       },
       {
         root: container,
