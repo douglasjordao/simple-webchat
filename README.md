@@ -13,7 +13,7 @@ This project demonstrates a small chat interface built with [Vue 3](https://vuej
 
 ## Installation
 
-1. Ensure Node.js is installed (version 18 or higher is recommended).
+1. Ensure Node.js is installed (version 20.19.0 or higher is recommended).
 2. Install dependencies:
    ```bash
    yarn install
