@@ -25,8 +25,8 @@ export default defineConfig([
       'vue/multi-word-component-names': 'off',
       'vue/no-v-html': 'off',
       'no-debugger':
-        import.meta.env.NODE_ENV === 'production' ? 'error' : 'off',
-      'no-console': import.meta.env.NODE_ENV === 'production' ? 'error' : 'off',
+        process.env.NODE_ENV === 'production' ? 'error' : 'off',
+      'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     },
   },
 ]);
