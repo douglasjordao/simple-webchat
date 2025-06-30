@@ -10,8 +10,7 @@ onMounted(async () => {
   let url = '/mocks/messages.json';
 
   if (import.meta.env.PROD) {
-    const pathName = window.location.pathname.split('/').filter(Boolean)[0];
-    url = `${pathName}/mocks/messages.json`;
+    url = `${window.location.pathname.split('/')[0]}/mocks/messages.json`;
   }
 
   const response = await fetch(url);
