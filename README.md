@@ -4,6 +4,8 @@
 
 This project demonstrates a small chat interface built with [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/) and [Vite](https://vitejs.dev/). The application simulates a simple conversation between the user and an agent, including support for audio messages.
 
+If you'd like to see the chat in action without downloading the code, check the live preview at [https://douglasjordao.github.io/simple-webchat/](https://douglasjordao.github.io/simple-webchat/).
+
 ## Features
 
 - Displays messages preloaded from `public/mocks/messages.json`.
@@ -26,7 +28,7 @@ This project demonstrates a small chat interface built with [Vue 3](https://vuej
 - `yarn dev` — starts the Vite development server.
 - `yarn build` — generates the production build in `docs/`.
 - `yarn preview` — serves the production build for local testing.
-- `yarn lint` — runs ESLint (if necessary, set `NODE_ENV=development`).
+- `yarn lint` — runs ESLint.
 
 ## Structure
 
