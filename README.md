@@ -1,5 +1,7 @@
 # Simple Webchat
 
+[Leia este README em Português](README.pt-BR.md)
+
 This project demonstrates a small chat interface built with [Vue 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/) and [Vite](https://vitejs.dev/). The application simulates a simple conversation between the user and an agent, including support for audio messages.
 
 ## Features
