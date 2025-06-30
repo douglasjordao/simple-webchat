@@ -30,10 +30,13 @@ jobs:
           mkdir docs
           cp -r dist/* docs/
 
+      - name: Configure git auth token
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
       - name: Commit and push docs folder
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add docs
-          git commit -m "Atualiza build na pasta docs [skip ci]" || echo "Sem mudanças para commitar"
+          git commit -m "Updates build in docs folder [skip ci]" || echo "No changes to commit"
           git push
